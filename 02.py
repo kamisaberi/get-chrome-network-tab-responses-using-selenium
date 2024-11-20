@@ -1,4 +1,6 @@
 import json
+from json import JSONDecodeError
+
 from selenium import webdriver
 from selenium.common import WebDriverException
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
@@ -20,17 +22,24 @@ driver = webdriver.Chrome(options=options)
 
 def processLog(log):
     log = json.loads(log["message"])["message"]
-    print(log)
+    print("-----------------------")
+    print(log["method"])
+    print("\n")
     if ("Network.response" in log["method"] and "params" in log.keys()):
+        print(log["method"])
         # headers = log["params"]["response"]
         try:
             print("Req Id:", log["params"]["requestId"])
             body = driver.execute_cdp_cmd('Network.getResponseBody', {'requestId': log["params"]["requestId"]})
+            # print(json.dumps(body, indent=4, sort_keys=True))
+            # log['body'] = json.dumps(body, indent=4, sort_keys=True)
             log['body'] = body
-            print(json.dumps(body, indent=4, sort_keys=True))
         except WebDriverException:
             print('response.body is null')
-    return log["params"]
+        # except JSONDecodeError:
+        #     print('response.body is not json')
+    print("-----------------------")
+    return log
 
 
 driver.get("https://www.nike.com/ie/w/mens-clothing-6ymx6znik1")
