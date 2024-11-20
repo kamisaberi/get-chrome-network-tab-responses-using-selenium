@@ -1,0 +1,120 @@
+{
+  "message": {
+    "method": "Network.responseReceived",
+    "params": {
+      "frameId": "14CA5075094007E57869C909D543573E",
+      "hasExtraInfo": true,
+      "loaderId": "DA4F31FDE3B9D7C6640A601C7FCBCFE0",
+      "requestId": "13204.207",
+      "response": {
+        "alternateProtocolUsage": "unspecifiedReason",
+        "charset": "utf-8",
+        "connectionId": 344,
+        "connectionReused": true,
+        "encodedDataLength": 931,
+        "fromDiskCache": false,
+        "fromPrefetchCache": false,
+        "fromServiceWorker": false,
+        "headers": {
+          "access-control-expose-headers": "x-kpsdk-ct,x-kpsdk-r,x-kpsdk-c",
+          "akamai-grn": "0.4b367a5c.1732086778.725555b",
+          "cache-control": "private, no-cache, no-store, must-revalidate",
+          "content-encoding": "gzip",
+          "content-length": "125129",
+          "content-type": "application/javascript; charset=utf-8",
+          "date": "Wed, 20 Nov 2024 07:12:59 GMT",
+          "expires": "Wed, 20 Nov 2024 07:12:59 GMT",
+          "p3p": "CP=\"This site does not specify a policy in the P3P header\"",
+          "pragma": "no-cache",
+          "vary": "Accept-Encoding",
+          "x-edgeconnect-midmile-rtt": "1",
+          "x-edgeconnect-origin-mex-latency": "226",
+          "x-kpsdk-ct": "0Hem0KYyEdyY3MkJtc7mgrONmwOuLM6NUf7mkx8kPWhz4m2RTWTzbEC0reGo15YHk6JslFMVhHhZCmrZRZDAKjd7KN4F8AdPVQmWSkXyvR5VVF8otwonmWSCqTvImL7TNocCv6Fu3ja7zdK7PoArz7kSy3iwD4M5KrgZ3ImP",
+          "x-kpsdk-r": "1-AA"
+        },
+        "mimeType": "application/javascript",
+        "protocol": "h2",
+        "remoteIPAddress": "192.168.43.1",
+        "remotePort": 8080,
+        "responseTime": 1732086779358.824,
+        "securityDetails": {
+          "certificateId": 0,
+          "certificateTransparencyCompliance": "compliant",
+          "cipher": "AES_256_GCM",
+          "encryptedClientHello": false,
+          "issuer": "DigiCert TLS RSA SHA256 2020 CA1",
+          "keyExchange": "",
+          "keyExchangeGroup": "X25519",
+          "protocol": "TLS 1.3",
+          "sanList": [
+            "api.nike.com"
+          ],
+          "serverSignatureAlgorithm": 1027,
+          "signedCertificateTimestampList": [
+            {
+              "hashAlgorithm": "SHA-256",
+              "logDescription": "Google 'Argon2025h1' log",
+              "logId": "4E75A3275C9A10C3385B6CD4DF3F52EB1DF0E08E1B8D69C0B1FA64B1629A39DF",
+              "origin": "Embedded in certificate",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3046022100B88C3A444C8BE43502401A361B5C17A45F7D7AA8363129EADAC5120BB49A4709022100EE4DBF80E500C63D6866BC440765F037969CFB62FE3E00AA1B8AD1E8E841E335",
+              "status": "Verified",
+              "timestamp": 1708820415813.0
+            },
+            {
+              "hashAlgorithm": "SHA-256",
+              "logDescription": "DigiCert Yeti2025 Log",
+              "logId": "7D591E12E1782A7B1C61677C5EFDF8D0875C14A04E959EB9032FD90E8C2E79B8",
+              "origin": "Embedded in certificate",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3046022100C8C5D08296CB2603087F65F5645752EB7FAFCC1E2DDE34FAD0352C77AF3E4B50022100865FA6D278E5F46331D288DD212137748189DB2C93E81B0B07E9C2059359CA55",
+              "status": "Verified",
+              "timestamp": 1708820415817.0
+            },
+            {
+              "hashAlgorithm": "SHA-256",
+              "logDescription": "DigiCert Nessie2025 Log",
+              "logId": "E6D2316340778CC1104106D771B9CEC1D240F6968486FBBA87321DFD1E378E50",
+              "origin": "Embedded in certificate",
+              "signatureAlgorithm": "ECDSA",
+              "signatureData": "3044022062675608FA21038CC4C5B88BD294ED8676257C2FB3DD3E7BE09DE52D6191800002201E48F708C5ED17250FE21ADAD92F692D973359573082219BD38C16E080D06B33",
+              "status": "Verified",
+              "timestamp": 1708820415868.0
+            }
+          ],
+          "subjectName": "api.nike.com",
+          "validFrom": 1708819200,
+          "validTo": 1740527999
+        },
+        "securityState": "secure",
+        "status": 200,
+        "statusText": "",
+        "timing": {
+          "connectEnd": -1,
+          "connectStart": -1,
+          "dnsEnd": -1,
+          "dnsStart": -1,
+          "proxyEnd": -1,
+          "proxyStart": -1,
+          "pushEnd": 0,
+          "pushStart": 0,
+          "receiveHeadersEnd": 629.984,
+          "receiveHeadersStart": 629.717,
+          "requestTime": 1620.309458,
+          "sendEnd": 0.955,
+          "sendStart": 0.588,
+          "sslEnd": -1,
+          "sslStart": -1,
+          "workerFetchStart": -1,
+          "workerReady": -1,
+          "workerRespondWithSettled": -1,
+          "workerStart": -1
+        },
+        "url": "https://api.nike.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/ips.js?KP_UIDz=0Cv3fherBYJY57fSahTe5XWQiZJH9zrWoV8B87Up5a73keVyfTxrmZDyU3tMBsvlUu6EmahI3PXiu184i7ZZvccFOHuKts8y2I1BXdAdjUsmzY0knEajsMkBvC3TnyqfUeSw5SdwO7XL5hqaAObExdrRmsgYIFfHqey1dbEg&x-kpsdk-v=j-0.0.0&x-kpsdk-im=CiQxMTA2NmE3NS0yYTkwLTRiMWMtYWZjNS03MmI1OGFhY2NkZjQ"
+      },
+      "timestamp": 1621.551539,
+      "type": "Script"
+    }
+  },
+  "webview": "C01C821B863120D4B446CE9A02A1CC7B"
+}

@@ -1,0 +1,35 @@
+{
+    "message": {
+      "method": "Network.requestWillBeSent",
+      "params": {
+        "documentURL": "https://api.nike.com/search/suggestions/v1?country=IE&language=en-gb&count=8",
+        "hasUserGesture": false,
+        "initiator": {
+          "requestId": "13204.137",
+          "type": "preflight",
+          "url": "https://api.nike.com/search/suggestions/v1?country=IE&language=en-gb&count=8"
+        },
+        "loaderId": "",
+        "redirectHasExtraInfo": false,
+        "request": {
+          "headers": {
+            "Accept": "*/*",
+            "Access-Control-Request-Headers": "anonymous-id,nike-api-caller-id",
+            "Access-Control-Request-Method": "GET",
+            "Origin": "https://www.nike.com",
+            "Sec-Fetch-Mode": "cors",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+          },
+          "initialPriority": "High",
+          "method": "OPTIONS",
+          "referrerPolicy": "strict-origin-when-cross-origin",
+          "url": "https://api.nike.com/search/suggestions/v1?country=IE&language=en-gb&count=8"
+        },
+        "requestId": "0DB467EB40A8D51BCC3449325A1AC4EB",
+        "timestamp": 1618.528616,
+        "type": "Other",
+        "wallTime": 1732086776.948196
+      }
+    },
+    "webview": "C01C821B863120D4B446CE9A02A1CC7B"
+  }

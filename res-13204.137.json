@@ -1,0 +1,122 @@
+{
+    "message": {
+      "method": "Network.responseReceived",
+      "params": {
+        "frameId": "C01C821B863120D4B446CE9A02A1CC7B",
+        "hasExtraInfo": true,
+        "loaderId": "1E4AC6F6CFE376CD46CCC6B213A905C7",
+        "requestId": "13204.137",
+        "response": {
+          "alternateProtocolUsage": "unspecifiedReason",
+          "charset": "",
+          "connectionId": 247,
+          "connectionReused": true,
+          "encodedDataLength": 380,
+          "fromDiskCache": false,
+          "fromPrefetchCache": false,
+          "fromServiceWorker": false,
+          "headers": {
+            "access-control-allow-credentials": "true",
+            "access-control-allow-headers": "nike-api-caller-id",
+            "access-control-allow-origin": "*",
+            "access-control-expose-headers": "Date, WWW-Authenticate",
+            "akamai-grn": "0.d18f655f.1732086778.3c92af6",
+            "cache-control": "private, max-age=0",
+            "content-encoding": "gzip",
+            "content-length": "396",
+            "content-type": "application/json",
+            "date": "Wed, 20 Nov 2024 07:12:58 GMT",
+            "expires": "Wed, 20 Nov 2024 07:12:58 GMT",
+            "server": "unified-edge-router",
+            "vary": "Accept-Encoding",
+            "x-b3-traceid": "0000000000000000fb54ab7284da8497",
+            "x-commerce-region": "us-east-1",
+            "x-edgeconnect-midmile-rtt": "1",
+            "x-edgeconnect-origin-mex-latency": "89"
+          },
+          "mimeType": "application/json",
+          "protocol": "h2",
+          "remoteIPAddress": "192.168.43.1",
+          "remotePort": 8080,
+          "responseTime": 1732086779061.251,
+          "securityDetails": {
+            "certificateId": 0,
+            "certificateTransparencyCompliance": "compliant",
+            "cipher": "AES_256_GCM",
+            "encryptedClientHello": false,
+            "issuer": "DigiCert TLS RSA SHA256 2020 CA1",
+            "keyExchange": "",
+            "keyExchangeGroup": "X25519",
+            "protocol": "TLS 1.3",
+            "sanList": [
+              "api.nike.com"
+            ],
+            "serverSignatureAlgorithm": 1027,
+            "signedCertificateTimestampList": [
+              {
+                "hashAlgorithm": "SHA-256",
+                "logDescription": "Google 'Argon2025h1' log",
+                "logId": "4E75A3275C9A10C3385B6CD4DF3F52EB1DF0E08E1B8D69C0B1FA64B1629A39DF",
+                "origin": "Embedded in certificate",
+                "signatureAlgorithm": "ECDSA",
+                "signatureData": "3046022100B88C3A444C8BE43502401A361B5C17A45F7D7AA8363129EADAC5120BB49A4709022100EE4DBF80E500C63D6866BC440765F037969CFB62FE3E00AA1B8AD1E8E841E335",
+                "status": "Verified",
+                "timestamp": 1708820415813.0
+              },
+              {
+                "hashAlgorithm": "SHA-256",
+                "logDescription": "DigiCert Yeti2025 Log",
+                "logId": "7D591E12E1782A7B1C61677C5EFDF8D0875C14A04E959EB9032FD90E8C2E79B8",
+                "origin": "Embedded in certificate",
+                "signatureAlgorithm": "ECDSA",
+                "signatureData": "3046022100C8C5D08296CB2603087F65F5645752EB7FAFCC1E2DDE34FAD0352C77AF3E4B50022100865FA6D278E5F46331D288DD212137748189DB2C93E81B0B07E9C2059359CA55",
+                "status": "Verified",
+                "timestamp": 1708820415817.0
+              },
+              {
+                "hashAlgorithm": "SHA-256",
+                "logDescription": "DigiCert Nessie2025 Log",
+                "logId": "E6D2316340778CC1104106D771B9CEC1D240F6968486FBBA87321DFD1E378E50",
+                "origin": "Embedded in certificate",
+                "signatureAlgorithm": "ECDSA",
+                "signatureData": "3044022062675608FA21038CC4C5B88BD294ED8676257C2FB3DD3E7BE09DE52D6191800002201E48F708C5ED17250FE21ADAD92F692D973359573082219BD38C16E080D06B33",
+                "status": "Verified",
+                "timestamp": 1708820415868.0
+              }
+            ],
+            "subjectName": "api.nike.com",
+            "validFrom": 1708819200,
+            "validTo": 1740527999
+          },
+          "securityState": "secure",
+          "status": 200,
+          "statusText": "",
+          "timing": {
+            "connectEnd": -1,
+            "connectStart": -1,
+            "dnsEnd": -1,
+            "dnsStart": -1,
+            "proxyEnd": -1,
+            "proxyStart": -1,
+            "pushEnd": 0,
+            "pushStart": 0,
+            "receiveHeadersEnd": 596.962,
+            "receiveHeadersStart": 596.61,
+            "requestTime": 1620.04505,
+            "sendEnd": 2.677,
+            "sendStart": 0.924,
+            "sslEnd": -1,
+            "sslStart": -1,
+            "workerFetchStart": -1,
+            "workerReady": -1,
+            "workerRespondWithSettled": -1,
+            "workerStart": -1
+          },
+          "url": "https://api.nike.com/search/suggestions/v1?country=IE&language=en-gb&count=8"
+        },
+        "timestamp": 1620.642673,
+        "type": "Fetch"
+      }
+    },
+    "webview": "C01C821B863120D4B446CE9A02A1CC7B"
+  }

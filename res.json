@@ -1,0 +1,259 @@
+[
+  {
+    "frameId": "F0450DEFA2C23F2BD298D1C557B28CD2"
+  },
+  {
+    "documentURL": "https://www.nike.com/ie/w/mens-clothing-6ymx6znik1",
+    "frameId": "F0450DEFA2C23F2BD298D1C557B28CD2",
+    "hasUserGesture": false,
+    "initiator": {
+      "type": "other"
+    },
+    "loaderId": "A459AE90B265CAD4CF47CA9252899A8D",
+    "redirectHasExtraInfo": false,
+    "request": {
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\""
+      },
+      "initialPriority": "VeryHigh",
+      "isSameSite": true,
+      "method": "GET",
+      "mixedContentType": "none",
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "url": "https://www.nike.com/ie/w/mens-clothing-6ymx6znik1"
+    },
+    "requestId": "A459AE90B265CAD4CF47CA9252899A8D",
+    "timestamp": 14598.561302,
+    "type": "Document",
+    "wallTime": 1732099756.9809
+  },
+  {
+    "associatedCookies": [],
+    "connectTiming": {
+      "requestTime": 14598.562024
+    },
+    "headers": {
+      ":authority": "www.nike.com",
+      ":method": "GET",
+      ":path": "/ie/w/mens-clothing-6ymx6znik1",
+      ":scheme": "https",
+      "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "accept-language": "en-US,en;q=0.9",
+      "priority": "u=0, i",
+      "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "sec-fetch-dest": "document",
+      "sec-fetch-mode": "navigate",
+      "sec-fetch-site": "none",
+      "sec-fetch-user": "?1",
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+    },
+    "requestId": "A459AE90B265CAD4CF47CA9252899A8D",
+    "siteHasCookieInOtherPartition": false
+  },
+  {
+    "frameId": "F0450DEFA2C23F2BD298D1C557B28CD2",
+    "hasExtraInfo": true,
+    "loaderId": "A459AE90B265CAD4CF47CA9252899A8D",
+    "requestId": "A459AE90B265CAD4CF47CA9252899A8D",
+    "response": {
+      "alternateProtocolUsage": "unspecifiedReason",
+      "charset": "utf-8",
+      "connectionId": 23,
+      "connectionReused": false,
+      "encodedDataLength": 1924,
+      "fromDiskCache": false,
+      "fromPrefetchCache": false,
+      "fromServiceWorker": false,
+      "headers": {
+        "accept-ch": "sec-ch-ua-model, sec-ch-ua-platform-version, sec-ch-ua-full-version-list",
+        "akamai-grn": "0.4c4c1002.1732099758.8280933",
+        "cache-control": "max-age=270",
+        "content-encoding": "gzip",
+        "content-security-policy": "frame-ancestors 'self' *.nike.com *.nikecloud.com *.nikedev.com",
+        "content-type": "text/html; charset=UTF-8",
+        "date": "Wed, 20 Nov 2024 10:49:20 GMT",
+        "etag": "\"9a080-ML17jdtx9BAtvqaXuwqxdqAVUp8\"",
+        "expires": "Wed, 20 Nov 2024 10:53:50 GMT",
+        "permissions-policy": "ch-ua-model=(\"https://sdk-api-v1.singular.net\"), ch-ua-platform-version=(\"https://sdk-api-v1.singular.net\"), ch-ua-full-version-list=(\"https://sdk-api-v1.singular.net\")",
+        "server": "unified-edge-router",
+        "server-timing": "origin; dur=479\nedge; dur=95\ncdn-cache; desc=REVALIDATE\nak_p; desc=\"1732099757249_34622540_136841523_57418_166175_7_365_255\";dur=1",
+        "strict-transport-security": "max-age=2628000 ; includeSubDomains",
+        "vary": "Accept-Encoding",
+        "x-akamai-transformed": "9 - 0 pmb=mNONE,1mRUM,3",
+        "x-b3-traceid": "000000000000000005d7a91a862d7273",
+        "x-branch-name": "production",
+        "x-build-number": "409",
+        "x-commerce-region": "us-east-1",
+        "x-commit-sha": "9b28c3a35",
+        "x-edgeconnect-midmile-rtt": "71",
+        "x-edgeconnect-origin-mex-latency": "479",
+        "x-environment": "production",
+        "x-frame-options": "sameorigin",
+        "x-powered-by": "Next.js"
+      },
+      "mimeType": "text/html",
+      "protocol": "h2",
+      "remoteIPAddress": "192.168.43.1",
+      "remotePort": 8080,
+      "responseTime": 1732099760612.668,
+      "securityDetails": {
+        "certificateId": 0,
+        "certificateTransparencyCompliance": "compliant",
+        "cipher": "AES_256_GCM",
+        "encryptedClientHello": false,
+        "issuer": "DigiCert SHA2 Extended Validation Server CA",
+        "keyExchange": "",
+        "keyExchangeGroup": "X25519",
+        "protocol": "TLS 1.3",
+        "sanList": [
+          "www.nike.com",
+          "about.nike.com",
+          "communityimpact.nike.com",
+          "elite.nike.com",
+          "help.nike.com",
+          "img.nike.com.hk",
+          "jobs.nike.com",
+          "m.nike.com",
+          "m.nike.com.hk",
+          "news.nike.com",
+          "nike.com",
+          "niketeam.nike.com",
+          "secure-store.nike.com",
+          "store.nike.com",
+          "uat.nike.com",
+          "web.nike.com",
+          "www.nike.com.hk"
+        ],
+        "serverSignatureAlgorithm": 1027,
+        "signedCertificateTimestampList": [
+          {
+            "hashAlgorithm": "SHA-256",
+            "logDescription": "Google 'Argon2025h2' log",
+            "logId": "12F14E34BD53724C840619C38F3F7A13F8E7B56287889C6D300584EBE586263A",
+            "origin": "Embedded in certificate",
+            "signatureAlgorithm": "ECDSA",
+            "signatureData": "3044022010E43D5445B708D1FAAFDD54E429BEEED9BA324DD2FEB331F183674FEA995D27022019D50E83C19239A4323B2A9D25A9B033EEF5E367420D33F61374FCB8832619BB",
+            "status": "Verified",
+            "timestamp": 1728605940876.0
+          },
+          {
+            "hashAlgorithm": "SHA-256",
+            "logDescription": "DigiCert Nessie2025 Log",
+            "logId": "E6D2316340778CC1104106D771B9CEC1D240F6968486FBBA87321DFD1E378E50",
+            "origin": "Embedded in certificate",
+            "signatureAlgorithm": "ECDSA",
+            "signatureData": "304402204F13658400C75021EAF845B6EA501777F596B36873BFDC14DA7C532A7DEDB5FF0220211BD5909CDD010D62A3E780F59DE4B1475820D4994562C5A245FE49D2E62F0C",
+            "status": "Verified",
+            "timestamp": 1728605940975.0
+          },
+          {
+            "hashAlgorithm": "SHA-256",
+            "logDescription": "Cloudflare 'Nimbus2025'",
+            "logId": "CCFB0F6A85710965FE959B53CEE9B27C22E9855C0D978DB6A97E54C0FE4C0DB0",
+            "origin": "Embedded in certificate",
+            "signatureAlgorithm": "ECDSA",
+            "signatureData": "304302201663E8774827AB23A202C647CE0739F033F38AE2B56D42F8A952480E658CD329021F71D35C67038D8E87B26121C592273C5AD0886131ED6C2BC3422DB03247620E",
+            "status": "Verified",
+            "timestamp": 1728605940955.0
+          }
+        ],
+        "subjectName": "www.nike.com",
+        "validFrom": 1728604800,
+        "validTo": 1760227199
+      },
+      "securityState": "secure",
+      "status": 200,
+      "statusText": "",
+      "timing": {
+        "connectEnd": 753.228,
+        "connectStart": 0,
+        "dnsEnd": -1,
+        "dnsStart": -1,
+        "proxyEnd": -1,
+        "proxyStart": -1,
+        "pushEnd": 0,
+        "pushStart": 0,
+        "receiveHeadersEnd": 3631.896,
+        "receiveHeadersStart": 3630.924,
+        "requestTime": 14598.562024,
+        "sendEnd": 754.201,
+        "sendStart": 753.824,
+        "sslEnd": 753.175,
+        "sslStart": 443.722,
+        "workerFetchStart": -1,
+        "workerReady": -1,
+        "workerRespondWithSettled": -1,
+        "workerStart": -1
+      },
+      "url": "https://www.nike.com/ie/w/mens-clothing-6ymx6znik1"
+    },
+    "timestamp": 14602.198353,
+    "type": "Document"
+  },
+  {
+    "blockedCookies": [],
+    "cookiePartitionKey": {
+      "hasCrossSiteAncestor": false,
+      "topLevelSite": "https://nike.com"
+    },
+    "cookiePartitionKeyOpaque": false,
+    "exemptedCookies": [],
+    "headers": {
+      "accept-ch": "sec-ch-ua-model, sec-ch-ua-platform-version, sec-ch-ua-full-version-list",
+      "akamai-grn": "0.4c4c1002.1732099758.8280933",
+      "cache-control": "max-age=270",
+      "content-encoding": "gzip",
+      "content-security-policy": "frame-ancestors 'self' *.nike.com *.nikecloud.com *.nikedev.com",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 20 Nov 2024 10:49:20 GMT",
+      "etag": "\"9a080-ML17jdtx9BAtvqaXuwqxdqAVUp8\"",
+      "expires": "Wed, 20 Nov 2024 10:53:50 GMT",
+      "permissions-policy": "ch-ua-model=(\"https://sdk-api-v1.singular.net\"), ch-ua-platform-version=(\"https://sdk-api-v1.singular.net\"), ch-ua-full-version-list=(\"https://sdk-api-v1.singular.net\")",
+      "server": "unified-edge-router",
+      "server-timing": "origin; dur=479\nedge; dur=95\ncdn-cache; desc=REVALIDATE\nak_p; desc=\"1732099757249_34622540_136841523_57418_166175_7_365_255\";dur=1",
+      "set-cookie": "geoloc=cc=GB,rc=EN,tp=vhigh,tz=GMT,la=51.50,lo=-0.12; path=/; domain=.nike.com\nni_d=62F61FDE-4449-4502-a236-3F5C6C10BAA1; expires=Sat, 20-Dec-2025 10:49:18 GMT; path=/; domain=.nike.com; secure\nanonymousId=28D548609A6A488D8F6B0880EDC180FC; expires=Sat, 20-Dec-2025 10:49:18 GMT; path=/; domain=.nike.com; secure\nAKA_A2=A; expires=Wed, 20-Nov-2024 11:49:18 GMT; path=/; domain=nike.com; secure; HttpOnly\nAKA_A2=A; expires=Wed, 20-Nov-2024 11:49:18 GMT; path=/; domain=nike.com; secure; HttpOnly\nAKA_A2=A; expires=Wed, 20-Nov-2024 11:49:19 GMT; path=/; domain=nike.com; secure; HttpOnly\nAKA_A2=A; expires=Wed, 20-Nov-2024 11:49:19 GMT; path=/; domain=nike.com; secure; HttpOnly\nAKA_A2=A; expires=Wed, 20-Nov-2024 11:49:19 GMT; path=/; domain=nike.com; secure; HttpOnly\nak_bmsc=76EC900E07345D82ACB82245B8BBF69D~000000000000000000000000000000~YAAQTEwQAv+b7T6TAQAAO+AwSRmcbua0y32kfoRt+yAOmOVIsD92XFxh2cBlPxCQVdatGtNQy3kQy3HbGqvTatc6cbiboFfJ7Reky5sqfoAKi2M8Xn9ht8SceI9FU/a1JjNcffjwntfxVRou8RFN1g3IgAeitKw55VdoI3dihUelxtnK5rXT6u+4PbjF3qIko+Wq3aF/0hwczN88QegwZVHR3rUATV57ezmb5y+9bmr54erQEe//P4cD26EZAUBzbf4lF/aRrvnnj9S20+vGQCYCJjwUbcT0zPaH/eS+86ss3BOI6e9F8a+WqxY4r8B9q9XJ01iTxBrRD7lHuxO62PCg5CRWeF3WUaGDtfstATYEqH7kBzs0u+/MOBFXRdPz09t6mUcPEw==; Domain=.nike.com; Path=/; Expires=Wed, 20 Nov 2024 12:49:18 GMT; Max-Age=7198",
+      "strict-transport-security": "max-age=2628000 ; includeSubDomains",
+      "vary": "Accept-Encoding",
+      "x-akamai-transformed": "9 - 0 pmb=mNONE,1mRUM,3",
+      "x-b3-traceid": "000000000000000005d7a91a862d7273",
+      "x-branch-name": "production",
+      "x-build-number": "409",
+      "x-commerce-region": "us-east-1",
+      "x-commit-sha": "9b28c3a35",
+      "x-edgeconnect-midmile-rtt": "71",
+      "x-edgeconnect-origin-mex-latency": "479",
+      "x-environment": "production",
+      "x-frame-options": "sameorigin",
+      "x-powered-by": "Next.js"
+    },
+    "requestId": "A459AE90B265CAD4CF47CA9252899A8D",
+    "resourceIPAddressSpace": "Unknown",
+    "statusCode": 200
+  },
+  {
+    "frame": {
+      "adFrameStatus": {
+        "adFrameType": "none"
+      },
+      "crossOriginIsolatedContextType": "NotIsolated",
+      "domainAndRegistry": "nike.com",
+      "gatedAPIFeatures": [],
+      "id": "F0450DEFA2C23F2BD298D1C557B28CD2",
+      "loaderId": "A459AE90B265CAD4CF47CA9252899A8D",
+      "mimeType": "text/html",
+      "secureContextType": "Secure",
+      "securityOrigin": "https://www.nike.com",
+      "url": "https://www.nike.com/ie/w/mens-clothing-6ymx6znik1"
+    },
+    "type": "Navigation"
+  },
+  {}
+]
