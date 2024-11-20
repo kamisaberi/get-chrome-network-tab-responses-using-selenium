@@ -42,10 +42,13 @@ def processLog(log):
     return log
 
 
-driver.get("https://www.nike.com/ie/w/mens-clothing-6ymx6znik1")
+url = "https://www.nike.com/ie/t/jordan-essentials-puffer-jacket-KgsFWB/FB7311-340"
+url = "https://www.asos.com/asos-design/asos-design-muscle-fit-long-sleeve-rib-polo-in-navy/prd/207188815"
+file_name = url.split("/")[-1] + ".json"
+driver.get(url)
 logs = driver.get_log('performance')
 responses = [processLog(log) for log in logs]
-with open("res.json", "wt") as f:
+with open(file_name, "wt") as f:
     f.write(json.dumps(responses))
 # print(responses)
 
