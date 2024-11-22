@@ -22,14 +22,14 @@ driver = webdriver.Chrome(options=options)
 
 def processLog(log):
     log = json.loads(log["message"])["message"]
-    print("-----------------------")
-    print(log["method"])
-    print("\n")
+    # print("-----------------------")
+    # print(log["method"])
+    # print("\n")
     if ("Network.response" in log["method"] and "params" in log.keys()):
-        print(log["method"])
+        # print(log["method"])
         # headers = log["params"]["response"]
         try:
-            print("Req Id:", log["params"]["requestId"])
+            # print("Req Id:", log["params"]["requestId"])
             body = driver.execute_cdp_cmd('Network.getResponseBody', {'requestId': log["params"]["requestId"]})
             # print(json.dumps(body, indent=4, sort_keys=True))
             # log['body'] = json.dumps(body, indent=4, sort_keys=True)
@@ -38,7 +38,7 @@ def processLog(log):
             print('response.body is null')
         # except JSONDecodeError:
         #     print('response.body is not json')
-    print("-----------------------")
+    # print("-----------------------")
     return log
 
 
@@ -47,7 +47,16 @@ url = "https://www.asos.com/asos-design/asos-design-muscle-fit-long-sleeve-rib-p
 file_name = url.split("/")[-1] + ".json"
 driver.get(url)
 logs = driver.get_log('performance')
-responses = [processLog(log) for log in logs]
+responses = []
+for log in logs:
+    responses.append(processLog(log))
+
+for response in responses:
+
+    print(response)
+
+
+
 with open(file_name, "wt") as f:
     f.write(json.dumps(responses))
 # print(responses)

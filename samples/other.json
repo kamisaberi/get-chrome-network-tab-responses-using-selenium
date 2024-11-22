@@ -1,0 +1,32 @@
+{
+  "method": "Network.requestWillBeSent",
+  "params": {
+    "documentURL": "https://www.asos.com/asos-design/asos-design-muscle-fit-long-sleeve-rib-polo-in-navy/prd/207188815",
+    "frameId": "9A8B2C93329E7D16860EBF154BD88B29",
+    "hasUserGesture": false,
+    "initiator": {
+      "type": "other"
+    },
+    "loaderId": "F4DC6DA66F8CBE166A30981682027E45",
+    "redirectHasExtraInfo": false,
+    "request": {
+      "headers": {
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\""
+      },
+      "initialPriority": "VeryHigh",
+      "isSameSite": true,
+      "method": "GET",
+      "mixedContentType": "none",
+      "referrerPolicy": "strict-origin-when-cross-origin",
+      "url": "https://www.asos.com/asos-design/asos-design-muscle-fit-long-sleeve-rib-polo-in-navy/prd/207188815"
+    },
+    "requestId": "F4DC6DA66F8CBE166A30981682027E45",
+    "timestamp": 15227.704993,
+    "type": "Document",
+    "wallTime": 1732138694.473262
+  }
+}
