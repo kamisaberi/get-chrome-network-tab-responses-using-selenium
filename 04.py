@@ -17,6 +17,9 @@ for response in responses:
 
     # print(list(response["params"].keys()))
 
+with open("refined.json", "w") as outfile:
+    json.dump(data, outfile)
+
 print(list(data.keys()))
 for datum in data:
     print(datum)
