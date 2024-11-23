@@ -25,6 +25,7 @@ def processLog(log):
     # print("-----------------------")
     # print(log["method"])
     # print("\n")
+    # if ("Network.response" in log["method"] and "params" in log.keys()):
     if ("Network.response" in log["method"] and "params" in log.keys()):
         # print(log["method"])
         # headers = log["params"]["response"]
@@ -42,18 +43,21 @@ def processLog(log):
     return log
 
 
-url = "https://www.nike.com/ie/t/jordan-essentials-puffer-jacket-KgsFWB/FB7311-340"
+# url = "https://www.nike.com/ie/t/jordan-essentials-puffer-jacket-KgsFWB/FB7311-340"
 url = "https://www.asos.com/asos-design/asos-design-muscle-fit-long-sleeve-rib-polo-in-navy/prd/207188815"
 file_name = url.split("/")[-1] + ".json"
 driver.get(url)
+time.sleep(10)
 logs = driver.get_log('performance')
 responses = []
 for log in logs:
     responses.append(processLog(log))
 
-for response in responses:
-
-    print(response)
+print(len(responses))
+time.sleep(2)
+# for response in responses:
+#
+#     print(response)
 
 
 
