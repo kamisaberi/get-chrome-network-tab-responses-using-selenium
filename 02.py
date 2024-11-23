@@ -39,6 +39,11 @@ def processLog(log):
             print('response.body is null')
         # except JSONDecodeError:
         #     print('response.body is not json')
+    # elif ("Network.requestWillBeSent" == log["method"]):
+    #     print("script")
+    #     body = driver.execute_script(log["params"]["request"]["url"], {'requestId': log["params"]["requestId"]})
+    #     print(body)
+
     # print("-----------------------")
     return log
 
