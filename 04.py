@@ -6,7 +6,6 @@ type_req_id_data = {}
 
 responses = json.load(open('207188815.json'))
 for response in responses:
-
     # request_id > method
     if "requestId" in response["params"].keys():
         request_id = response["params"]["requestId"]
