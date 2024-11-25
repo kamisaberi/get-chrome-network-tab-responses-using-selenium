@@ -10,6 +10,10 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 import json
+import sys
+
+f1 = open("logs.txt", "wt")
+sys.stdout = f1
 
 options = Options()
 options.set_capability('goog:loggingPrefs', {'performance': 'ALL', "browser": "ALL", 'driver': 'ALL'})
@@ -30,12 +34,15 @@ def processLog(log):
         # print(log["method"])
         # headers = log["params"]["response"]
         try:
+            print("-----------------------------------------------------------")
+            print(log["params"]["requestId"],log["params"]["type"] if "type" in log["params"] else "None")
             # print("Req Id:", log["params"]["requestId"])
             body = driver.execute_cdp_cmd('Network.getResponseBody', {'requestId': log["params"]["requestId"]})
             # print(json.dumps(body, indent=4, sort_keys=True))
             # log['body'] = json.dumps(body, indent=4, sort_keys=True)
             log['body'] = body
         except WebDriverException:
+            print(log["params"]["requestId"], log["params"]["type"] if "type" in log["params"] else "None")
             print('response.body is null')
         # except JSONDecodeError:
         #     print('response.body is not json')
@@ -63,7 +70,6 @@ time.sleep(2)
 # for response in responses:
 #
 #     print(response)
-
 
 
 with open(file_name, "wt") as f:

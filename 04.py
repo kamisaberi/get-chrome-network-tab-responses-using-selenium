@@ -29,6 +29,7 @@ for response in responses:
         else:
             type_method_data[type_][method] = [response]
 
+    # type > request_id
     if "type" in response["params"].keys() and "requestId" in response["params"].keys():
         type_ = response["params"]["type"]
         request_id = response["params"]["requestId"]
@@ -38,8 +39,6 @@ for response in responses:
             type_req_id_data[type_][request_id].append(response)
         else:
             type_req_id_data[type_][request_id] = [response]
-
-    # print(list(response["params"].keys()))
 
 with open("req_id_method_data.json", "w") as outfile:
     json.dump(req_id_method_data, outfile)
