@@ -34,10 +34,10 @@ for entry in logs:
     # response_url = log['params']['response']['url']
     response_url = log['params']
     print(response_url)
-    if "makemytrip" in response_url:
-        print("Url:", response_url)
-        # print("Response headers:", log['params']['response']['headers'])
-        print("Response headers:", log['params'])
+    # if "makemytrip" in response_url:
+    #     print("Url:", response_url)
+    #     # print("Response headers:", log['params']['response']['headers'])
+    #     print("Response headers:", log['params'])
 
 time.sleep(20)
 
